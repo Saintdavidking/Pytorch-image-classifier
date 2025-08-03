@@ -4,21 +4,21 @@ Features  Easy Setup: One-command installation and training Interactive Classifi
 Upload and classify your own images Real-time Training: Live progress. with a 78% accuracy.
 
 
-```To run this classifier:
+To run this classifier:
 
 First step: Install dependencies using the command below:
-```
 
+```py
 pip install torch torchvision matplotlib numpy
-
 ```
 it will automatically download CIFAR-10 dataset, train for 5 epochs, evaluate performance, and show training plots and sample prediction.
 
 Immediate Next Steps: Run the command below to start the program:
-```
 
+```py
 python classifier.py
-
-``` The training will now be more informative and should produce a nice results.
-You'll see detailed progress updates, beautiful plots, and a professional summary at the end!
 ```
+
+The training will now be more informative and should produce a nice results.
+You'll see detailed progress updates, beautiful plots, and a professional summary at the end!
+
